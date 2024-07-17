@@ -1,136 +1,67 @@
-/* 
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-size: 16px;
-  text-align: left;
-}
-
-table thead {
-  background-color: #f2f2f2;
-}
-
-table th,
-table td {
-  border: 1px solid #ddd;
-  padding: 12px;
-}
-
-table th {
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-table tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-table tbody tr:hover {
-  background-color: #f1f1f1;
-}
-
-.navigation-buttons {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.navigation-buttons button {
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none; 
-}
-
-.navigation-buttons button:hover {
-  background-color: #0056b3;
-}
-
-.navigation-buttons a {
-  color: white; 
-  text-decoration: none;
-} */
-
-
-
-/* TransactionsTable.css */
-
-/* General container for the table */
 .transactions-table {
   margin: 20px auto;
   padding: 20px;
-  background-color: #ffffff; /* White background for contrast */
+  background-color: #ffffff; 
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  max-width: 1000px; /* Restrict the width of the container */
-  width: 100%; /* Full width for smaller screens */
-  overflow-x: auto; /* Allow horizontal scroll for smaller screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  overflow-x: auto; 
 }
 
-/* Navigation buttons container */
 .navigation-buttons {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10px;
 }
 
-/* Table styling */
 table {
   width: 100%;
-  border-collapse: collapse; /* Remove gaps between table cells */
   margin-bottom: 20px;
 }
 
-/* Table header styling */
 thead {
-  background-color: #f4f4f4; /* Light gray background for the header */
+  background-color: #f4f4f4;
 }
 
 th {
   padding: 10px;
   text-align: left;
   font-size: 16px;
-  color: #333; /* Darker text for better readability */
-  border-bottom: 2px solid #ddd; /* Subtle bottom border for separation */
+  color: #333;
+  border-bottom: 2px solid #ddd; 
 }
 
-/* Table body styling */
+
 tbody tr:nth-child(even) {
-  background-color: #f9f9f9; /* Light gray background for even rows */
+  background-color: #f9f9f9; 
 }
 
 td {
   padding: 10px;
   font-size: 14px;
-  color: #555; /* Slightly lighter text than the header */
-  border-bottom: 1px solid #ddd; /* Subtle bottom border for separation */
+  color: #555;
+  border-bottom: 1px solid #ddd; 
   text-align: left;
 }
 
-/* Styling for transaction status */
 td.sold-yes {
-  color: green; /* Green color for sold items */
+  color: green;
   font-weight: bold;
 }
 
 td.sold-no {
-  color: red; /* Red color for not sold items */
+  color: red;
   font-weight: bold;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   table {
-    font-size: 12px; /* Smaller font size for smaller screens */
+    font-size: 12px;
   }
 
   th, td {
-    padding: 8px; /* Reduce padding on smaller screens */
+    padding: 8px;
   }
 }

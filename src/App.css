@@ -1,30 +1,26 @@
-/* App.css */
 
-/* General container styling for the entire app */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #f0f0f0; /* Light grey background */
-    min-height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0;
+    min-height: 100vh;
   }
-  
-  /* Heading styling */
+
   .container h1 {
     font-size: 36px;
     color: #333;
     margin-bottom: 20px;
   }
-  
-  /* Controls section styling */
+
   .controls {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    gap: 10px; /* Space between controls */
+    gap: 10px;
   }
   
   .controls select,
@@ -34,8 +30,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
-  /* General button styling */
+
   .button {
     background-color: #007bff;
     color: white;
@@ -50,8 +45,7 @@
   .button:hover {
     background-color: #0056b3;
   }
-  
-  /* Transactions Table */
+
   .transactions-table {
     width: 100%;
     max-width: 1000px;
@@ -75,7 +69,6 @@
     background-color: #f1f1f1;
   }
   
-  /* Statistics Section */
   .statistics {
     width: 100%;
     max-width: 800px;
@@ -91,7 +84,7 @@
     font-size: 24px;
   }
   
-  /* Charts Section */
+
   .charts {
     width: 100%;
     max-width: 800px;
@@ -103,8 +96,7 @@
     font-size: 24px;
     text-align: center;
   }
-  
-  /* Pagination Controls */
+ 
   .pagination {
     display: flex;
     justify-content: center;
@@ -114,8 +106,7 @@
   .pagination .button {
     margin: 0 5px;
   }
-  
-  /* Link Styling */
+
   a {
     text-decoration: none;
     color: #007bff;
@@ -124,8 +115,7 @@
   a:hover {
     text-decoration: underline;
   }
-  
-  /* Utility classes */
+
   .hidden {
     display: none;
   }

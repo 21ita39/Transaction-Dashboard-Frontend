@@ -1,64 +1,33 @@
-/* 
 
 .charts {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 50px auto;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  width: 500px;
-  height: 600px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.charts h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
-}
-
-
- */
-
- /* PieChart.css */
-
-/* Container for the Pie Chart */
-.charts {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff; /* White background for contrast */
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  margin: 20px auto; /* Center the chart container */
-  max-width: 600px; /* Restrict the width of the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; 
+  max-width: 600px; 
 }
 
-/* Title of the Pie Chart */
 .charts h2 {
   font-size: 24px;
-  color: #333; /* Darker text for better readability */
+  color: #333;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Styling the Pie Chart itself */
 .charts .chart-container {
-  width: 100%; /* Full width within its container */
+  width: 100%;
   position: relative;
 }
 
 .charts canvas {
-  max-width: 100%; /* Make sure the canvas doesn't overflow */
+  max-width: 100%;
 }
 
-/* Customize the tooltip */
 .charts .chartjs-tooltip {
   background: rgba(0, 0, 0, 0.7);
   color: white;

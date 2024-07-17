@@ -1,98 +1,38 @@
-/* 
 
 .statistics {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px auto;
   padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  max-width: 400px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.statistics h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
-}
-
-.statistics p {
-  margin: 5px 0;
-  font-size: 16px;
-  color: #555;
-}
-
-.navigation {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px; 
   width: 100%;
 }
 
-.navigation button {
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none; 
-}
-
-.navigation button:hover {
-  background-color: #0056b3;
-}
-
-.navigation a {
-  color: white;
-  text-decoration: none; 
-} */
-
-
-/* Statistics.css */
-
-/* Container for the statistics section */
-.statistics {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  background-color: #ffffff; /* White background for contrast */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  margin: 20px auto; /* Center the container */
-  max-width: 600px; /* Restrict the width of the container */
-  width: 100%; /* Full width for smaller screens */
-}
-
-/* Heading for the statistics section */
 .statistics h2 {
   font-size: 24px;
-  color: #333; /* Darker text for better readability */
+  color: #333; 
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Paragraphs for displaying statistics data */
 .statistics p {
   font-size: 18px;
-  color: #555; /* Slightly lighter color than the heading */
+  color: #555; 
   margin: 10px 0;
   text-align: center;
 }
 
-/* Navigation buttons container */
 .navigation {
   display: flex;
-  gap: 10px; /* Space between buttons */
+  gap: 10px; 
   margin-top: 20px;
 }
 
-/* Button styling */
+
 .navigation button {
   background-color: #007bff;
   color: white;
@@ -108,12 +48,12 @@
   background-color: #0056b3;
 }
 
-/* Link styling within the buttons */
+
 .navigation button a {
-  color: white; /* Inherit button color */
-  text-decoration: none; /* Remove underline from links */
+  color: white;
+  text-decoration: none;
 }
 
 .navigation button a:hover {
-  text-decoration: underline; /* Add underline on hover for links */
+  text-decoration: underline;
 }

@@ -19,16 +19,16 @@ const App = () => {
   const [statistics, setStatistics] = useState({});
   const [barChartData, setBarChartData] = useState(null);
   const [pieChartData, setPieChartData] = useState(null);
-  const [year, setYear] = useState(new Date().getFullYear()); // Default to current year
-  const [month, setMonth] = useState(new Date().getMonth() + 1); // Default to current month
+  const [year, setYear] = useState(new Date().getFullYear()); 
+  const [month, setMonth] = useState(new Date().getMonth() + 1); 
   const [search, setSearch] = useState('');
   const [page, setPage] = useState(1);
-  const [perPage] = useState(5); // Show 5 items per page
+  const [perPage] = useState(5); 
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchData();
-  }, [year, month, search, page]); // Dependency array
+  }, [year, month, search, page]); 
 
   const fetchData = async () => {
     setLoading(true);
@@ -40,10 +40,10 @@ const App = () => {
         fetchPieChartData(year, month),
       ]);
 
-      console.log('Transactions Data:', transactionsData); // Log transactions data
-      console.log('Statistics Data:', statisticsData); // Log statistics data
-      console.log('Bar Chart Data:', barChartData); // Log bar chart data
-      console.log('Pie Chart Data:', pieChartData); // Log pie chart data
+      console.log('Transactions Data:', transactionsData); 
+      console.log('Statistics Data:', statisticsData); 
+      console.log('Bar Chart Data:', barChartData); 
+      console.log('Pie Chart Data:', pieChartData); 
 
       setTransactions(transactionsData);
       setStatistics(statisticsData);
